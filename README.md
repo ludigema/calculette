@@ -2,5 +2,5 @@
 
 + thomas fonction de l'addition
 + wiam fonctiond de la soustraction
-+ jeremie multiplication
++ jeremy multiplication
 + ludivine division
