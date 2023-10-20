@@ -19,3 +19,5 @@ def test_multi():
 def test_sum():
 	assert sum(4,9) == 13
 
+def test_soustr():
+	assert soustr(2,1) == 1
