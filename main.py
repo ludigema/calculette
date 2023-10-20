@@ -1,4 +1,6 @@
 # définir chacun votre fonction
+class Error(Exception):
+	pass
 
 def divide(a,b):
 	if b == 0:
