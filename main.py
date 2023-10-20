@@ -15,6 +15,9 @@ def soustr (a,b):
 
 def sum(a,b):
 	res = a+b
+
+def multiply(a,b):
+	res=a*b	
 	return res
 
 if __name__ == '__main__':
@@ -24,3 +27,7 @@ if __name__ == '__main__':
 	print("l'addition vaut", sum(x,y))
     print("la soustraction vaut", soustr(x, y))
 	print("la division vaut", divide(x,0))
+	print("la multiplication vaut", multiply(x,y))
+	print("la soustraction vaut", soustr(x, y))
+	print("la division vaut", divide(x,0))
+
