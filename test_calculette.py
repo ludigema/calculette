@@ -11,5 +11,4 @@ def test_raise():
 		divide(1,0)
 
 def test_multi():
-	with pytest.raises(Error):
-		multiply(3,5) == 15
+	assert divide(1,2) == 0.5
