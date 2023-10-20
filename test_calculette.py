@@ -14,8 +14,7 @@ def test_raise():
 
 
 def test_multi():
-	with pytest.raises(Error):
-		multiply(3,5) == 15
+	assert multiply(3,5) == 15
 
 def test_sum():
 	assert sum(4,9) == 13
