@@ -1,5 +1,5 @@
 import pytest
-from main import divide # nom du fichier
+from main import divide, Error # nom du fichier
 
 # test unitaire
 def test_div():
