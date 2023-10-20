@@ -1,5 +1,5 @@
 import pytest
-from main import divide, Error # nom du fichier
+from main import * # nom du fichier
 
 # test unitaire
 def test_div():
@@ -8,3 +8,7 @@ def test_div():
 def test_raise():
 	with pytest.raises(Error):
 		divide(1,0)
+
+def test_multi():
+	with pytest.raises(Error):
+		multiply(3,5) == 15
