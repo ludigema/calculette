@@ -1,5 +1,5 @@
 import pytest
-import calculette
+import main # nom du fichier
 
 # test unitaire
 def test_div(cal):
